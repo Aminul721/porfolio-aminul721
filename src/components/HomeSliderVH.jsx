@@ -17,11 +17,11 @@ const HomeSliderVH = () => {
             spaceBetween={0}
             slidesPerView={1}
             navigation
-            loop={false}
-            // autoplay={{
-            //     delay: 3000,
-            //     disableOnInteraction: false,
-            // }}
+            loop={true}
+            autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+            }}
             speed={1000}
         >
             {
