@@ -8,11 +8,11 @@ import { Navigation, Autoplay, EffectFade } from 'swiper/modules';
 import { sliderData } from "@/lib/fakeData/sliderData";
 import SliderCard from "@/lib/ui/SliderCard";
 
-const HomeSliderVH = () => {
+const HomeSliderVH = ({className}) => {
   return (
     <>
         <Swiper
-            className="h-full"
+            className={`h-full ${className}`}
             modules={[Navigation, Autoplay, EffectFade]}
             spaceBetween={0}
             slidesPerView={1}

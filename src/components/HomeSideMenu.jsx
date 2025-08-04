@@ -47,9 +47,9 @@ const HomeSideMenu = () => {
 }, []);
 
     return (
-        <div className='flex-wrap mb-16 lg:mb-36 hidden lg:flex'>
+        <div className='flex-wrap mb-16 lg:mb-36 lg:flex'>
             <div
-                className='home-side-area bg-no-repeat bg-cover bg-top-left w-full lg:w-1/5 lg:min-h-screen'
+                className='home-side-area bg-no-repeat bg-cover bg-top-left w-full lg:w-1/5 lg:min-h-screen hidden lg:block'
                 style={{ backgroundImage: `url(${MenuSideBGImg.src})` }}
             >
                 <div className='home-side-menu py-20 pb-5 px-10 h-full'>
