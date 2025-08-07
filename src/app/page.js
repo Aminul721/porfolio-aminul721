@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <StickyHeader/>
-      <main>
+      <main className="main-content pt-[90px] lg:pt-[0px]">
         <HomeSideMenu/>
         <About/>
         <Skill/>

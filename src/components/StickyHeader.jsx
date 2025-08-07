@@ -18,7 +18,7 @@ const StickyHeader = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-        const scrollingAfter = window.innerHeight - 100; // 20vh
+            const scrollingAfter = window.innerHeight - 100;
         if (window.scrollY > scrollingAfter) {
             setIsVisible(true);
         } else {
@@ -29,7 +29,7 @@ const StickyHeader = () => {
         window.addEventListener('scroll', handleScroll);
         
         return () => {
-        window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
