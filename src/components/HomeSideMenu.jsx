@@ -6,7 +6,7 @@ import { sideMenu } from '@/lib/fakeData/SideMenu'
 import Link from 'next/link'
 import MenuSideBGImg from '../../public/images/menu-side-bg.jpg'
 import HomeSliderVH from './HomeSliderVH'
-
+import SocialCard from '@/lib/ui/SocialCard'
 const HomeSideMenu = () => {
     const [activeSection, setActiveSection] = useState('');
 
@@ -77,6 +77,8 @@ const HomeSideMenu = () => {
                             })
                         }
                     </ul>
+
+                    <SocialCard/>
                 </div>
             </div>
             <div className='w-full lg:w-4/5'>

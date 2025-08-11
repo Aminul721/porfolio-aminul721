@@ -94,24 +94,6 @@ const StickyHeader = () => {
                         })
                     }
                 </ul>
-
-                {/* <ul className='flex gap-4'>
-                    {
-                        sideMenu.map(({id, name, path})=> {
-                            const isActive = activeSection === path.replace('#', '');
-                            return (
-                                <li key={id} id={`${id}-${name}`} 
-                                className={`
-                                    font-medium text-2xl ring-offset-1 transition-colors duration-300
-                                    ${isActive ? 'text-pink-600 font-bold' : 'text-white hover:text-pink-500'}
-                                `}
-                                >
-                                    <Link href={path}>{name}</Link>
-                                </li>
-                            )
-                        })
-                    }
-                </ul> */}
             </div>
         </div>
     </>
