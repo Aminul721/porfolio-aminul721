@@ -71,7 +71,7 @@ const StickyHeader = () => {
                     </Link>
                 </div>
                 <div className="humber lg:hidden">
-                    <button className="btn p-2 block border rounded cursor-pointer" onClick={toggleMenu}>
+                    <button className="btn p-2 block border rounded cursor-pointer text-white" onClick={toggleMenu}>
                     {
                         isOpen ? <RxCross1 /> : <FaBarsStaggered />
                     }
